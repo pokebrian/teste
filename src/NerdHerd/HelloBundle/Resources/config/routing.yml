@@ -2,6 +2,6 @@ NerdHerdHelloBundle_homepage:
     pattern:  /hello/{name}
     defaults: { _controller: NerdHerdHelloBundle:Default:index }
 
-hello:
+helloThere:
     pattern:  /hellothere/{name}
-    defaults: { _controller: NerdHerdHelloBundle:Hello:index }
+    defaults: { _controller: NerdHerdHelloBundle:HelloThere:index }
