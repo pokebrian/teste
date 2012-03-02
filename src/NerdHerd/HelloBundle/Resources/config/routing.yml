@@ -1,3 +1,7 @@
+_welcome:
+    pattern: /
+    defaults: { _controller: NerdHerdHelloBundle:Main:welcome }
+
 NerdHerdHelloBundle_homepage:
     pattern:  /hello/{name}
     defaults: { _controller: NerdHerdHelloBundle:Default:index }
