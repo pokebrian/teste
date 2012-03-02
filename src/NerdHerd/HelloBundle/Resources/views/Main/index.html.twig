@@ -1,0 +1,7 @@
+{% extends '::base.html.twig' %}
+
+{% block body %}
+<br/><a href="{{ path('_welcome') }}">Home (this page)</a>
+<br/><a href="{{ path('NerdHerdHelloBundle_homepage', { 'name': "Brian" }) }}">page that says hello and bring some data from database</a>
+<br/><a href="{{ path('helloThere', { 'name': "Brian" }) }}">page that say hello</a>
+{% endblock %}
