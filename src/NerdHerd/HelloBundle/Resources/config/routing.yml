@@ -9,3 +9,11 @@ NerdHerdHelloBundle_homepage:
 helloThere:
     pattern:  /hellothere/{name}
     defaults: { _controller: NerdHerdHelloBundle:HelloThere:index }
+    
+productForm:
+    pattern: /productForm/
+    defaults: { _controller: NerdHerdHelloBundle:FormTest:new }
+    
+product_new:
+    pattern: /productForm/
+    defaults: { _controller: NerdHerdHelloBundle:FormTest:new }
