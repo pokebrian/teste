@@ -1,3 +1,8 @@
+InternoteNoteBundle:
+    resource: "@InternoteNoteBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
 NerdHerdHelloBundle:
     resource: "@NerdHerdHelloBundle/Resources/config/routing.yml"
     prefix:   /
