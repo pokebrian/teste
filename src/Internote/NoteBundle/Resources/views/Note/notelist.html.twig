@@ -1,0 +1,14 @@
+
+<h1>NoteList</h1>
+<!-- testes abaixo -->
+{% if dados is defined %}
+	{{dados}}
+{% endif %}
+
+{% if form is defined %}
+<form action="{{ path('product_new') }}" method="post" {{ form_enctype(form) }}>
+    {{ form_widget(form) }}
+
+    <input type="submit" />
+</form>
+{% endif %}

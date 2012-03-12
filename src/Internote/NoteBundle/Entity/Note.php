@@ -17,11 +17,6 @@ class Note
 	protected $id;
 
 	/**
-	 * @ORM\Column(type="string", length=100)
-	 */
-	protected $name;
-
-	/**
 	 * @ORM\Column(type="text")
 	 */
 	protected $text;
@@ -34,26 +29,6 @@ class Note
     public function getId()
     {
         return $this->id;
-    }
-
-    /**
-     * Set name
-     *
-     * @param string $name
-     */
-    public function setName($name)
-    {
-        $this->name = $name;
-    }
-
-    /**
-     * Get name
-     *
-     * @return string 
-     */
-    public function getName()
-    {
-        return $this->name;
     }
 
     /**
