@@ -1,5 +1,10 @@
 
 <h1>NoteList</h1>
+<ul>
+{% for note in notes %}
+    <li>{{ note.id }} - {{ note.text }}</li>
+{% endfor %}
+</ul>
 <!-- testes abaixo -->
 {% if dados is defined %}
 	{{dados}}

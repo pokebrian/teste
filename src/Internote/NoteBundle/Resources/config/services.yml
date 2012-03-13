@@ -1,0 +1,7 @@
+parameters:
+#    nerd_herd_hello.example.class: NerdHerd\HelloBundle\Example
+
+services:
+#    nerd_herd_hello.example:
+#        class: %nerd_herd_hello.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]
