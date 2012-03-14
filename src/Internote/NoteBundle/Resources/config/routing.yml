@@ -1,3 +1,7 @@
 note_list:
     pattern: /notelist/
     defaults: { _controller: InternoteNoteBundle:NoteList:list }
+    
+note_list:
+    pattern: /noteform/
+    defaults: { _controller: InternoteNoteBundle:NoteForm:form }
